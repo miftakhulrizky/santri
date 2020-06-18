@@ -1,0 +1,450 @@
+/* HTML */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F0F2F5 !important;
+}
+
+/* Navbar */
+
+.bg-custom {
+    background-image: url(assets/image/Dg1.png);
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-left: 20px;
+}
+
+.nav-link {
+    margin-left: 40px;
+    font-size: 16px;
+}
+
+.navbar-toggler {
+    border: none !important;
+    color: #ffffff !important;
+}
+
+.jumbotron {
+    background-image: url(assets/image/Dg1.png);
+    background-size: cover;
+    background-position: center;
+    background-color: transparent !important;
+    height: 768px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 70px;
+    margin-top: 220px;
+}
+
+/* Nama-Santri */
+.container-nama-santri {
+    margin: 0;
+    background: #ffffff;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container .display-5 {
+    color: #1F8961;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+.container .display-5 span {
+    color: #343434;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Santri-Text-area */
+.container-text-area {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 20px;
+    text-align: right;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 0 !important;
+}
+
+.komen {
+    display: flex;
+    align-items: center;
+}
+
+.kirim {
+    margin-top: 10px;
+}
+
+.kirim-komen {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.card .status-card {
+    margin: 0 !important;
+}
+
+.status-foto {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container-satu {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.nama-foto {
+    display: flex;
+    align-items: center !important;
+}
+
+.foto-komen {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+}
+
+.nama-komen {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.waktu-komen {
+    font-size: 12px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+/* Biografi */
+.container-bio {
+    display: flex;
+}
+
+.bio {
+    display: flex;
+    align-items: center;
+    margin: 15px 70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.service-5 {
+    display: flex;
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.service-lead-1 {
+    padding-right: 20px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+
+.service-lead-1 span {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Charts */
+.container-chart {
+    margin-bottom: 20px;
+    background: #ffffff;
+    /* padding: 20px; */
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.judul-chart {
+    font-size: 30px;
+    color: #343434;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.chart {
+    margin: auto 20px;
+    padding-bottom: 20px;
+}
+
+/* Santri-Profile */
+.container-utama {
+    display: flex;
+    width: 100%;
+    margin: 50px auto;
+    box-sizing: border-box;
+}
+
+.container-kanan {
+    margin: 0 0 0 20px;
+    flex: 5;
+    order: 1;
+}
+
+.container-profile {
+    margin-bottom: 20px;
+    background: #ffffff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.container-profile .profile {
+    margin: auto auto 20px auto;
+}
+
+.container-profile .nama {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0;
+}
+
+.status-profile {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.container-kiri {
+    margin: 0 20px 0 0;
+    flex: 4;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin: 15px 70px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+/* berita-santri */
+.container-berita {
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 0 20px 0 20px;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-4 {
+    font-size: 30px;
+    color: #343434;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+    margin: 0;
+}
+
+.santri-card {
+    height: 350px;
+}
+
+.santri {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    font-size: 70% !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.textna-santri {
+    height: 67px;
+    overflow: hidden;
+}
+
+/* Utility */
+.tombol {
+    color: #ffffff !important;
+    border: none !important;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+    background-color: #1F8961 !important;
+    font-weight: bold !important;
+}
+
+.tombol:hover {
+    border: none !important;
+    border-radius: 30px !important;
+    padding: 10px 30px !important;
+    background-color: #145E42 !important;
+    font-weight: bold !important;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.tombol-link {
+    position: absolute !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    color: #ffffff !important;
+    width: 100% !important;
+    border: none !important;
+    padding: 10px 0px !important;
+    background-color: #1F8961 !important;
+    font-weight: bold !important;
+}
+
+.tombol-link:hover {
+    border: none !important;
+    padding: 10px 30px !important;
+    background-color: #145E42 !important;
+    font-weight: bold !important;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.gotopbtn {
+    position: fixed;
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(5, 117, 230, 0.26);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(5, 117, 230, 0.26);
+    box-shadow: 0px 10px 20px 0px rgba(5, 117, 230, 0.26);
+
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: #1F8961;
+    font-size: 20px;
+}
+
+/* Link */
+.card {
+    z-index: 1;
+    border: none !important;
+    align-items: center;
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    display: flex !important;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card .card-footer {
+    margin-bottom: 5px;
+    border: none;
+    background-color: #ffffff;
+}
+
+.card .card-img-top {
+    margin-bottom: 20px;
+}
+
+.card .card-body .card-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #1F8961;
+    margin: auto 20px;
+}
+
+.card .card-body .card-text {
+    text-align: center;
+    font-weight: normal;
+    font-size: 12px;
+    color: #343434;
+    margin: 10px 20px;
+}
+
+.card .card-body {
+    padding: 0;
+}
+
+.card-5 {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
+.gmbr-berita {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.news-card {
+    height: 450px;
+}
+
+.textna {
+    height: 80px;
+    overflow: hidden;
+}
+
+.hai {
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Footer */
+footer {
+    background-color: #1F8961;
+    height: 50px;
+}
+
+.copyright p {
+    font-weight: normal;
+    padding-top: 16px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+}
+
+.copyright p a {
+    color: #ffffff;
+}
+
+.copyright p a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}

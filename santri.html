@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda Santri</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javascript.js">
+    <link rel="stylesheet" href="Assets/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/image/icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="https://kit.fontawesome.com/eab2d11ecd.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="assets/image/logo.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item nav-link" href="index.html">Beranda</a>
+                    <a class="nav-item nav-link" href="#Kegiatan">Kegiatan</a>
+                    <a class="nav-item nav-link" href="#Produk">Produk</a>
+                    <a class="nav-item nav-link" href="#Kontak">Kontak</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron jumbotron-fluid" id="Home">
+        <div class="container">
+            <h1 class="display-4">SANTRI LINK</h1>
+        </div>
+    </div>
+    <!-- End Jumbotron -->
+
+    <!-- container -->
+    <div class="container">
+
+        <!-- Nama -->
+        <div class="container-nama-santri">
+            <h1 class="display-5"><span>Selamat Datang,</span> Nama Santri</h1>
+        </div>
+        <!-- End Nama -->
+
+        <!-- Profile -->
+        <div class="container-utama">
+            <div class="container-kanan">
+                <div class="container-profile">
+                    <img src="assets/image/foto.jpg" class="profile">
+                    <p class="status-profile">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Error ipsa
+                        facilis fugiat magni quis nulla illo nam exercitationem mollitia dolorem voluptatem amet,
+                        eligendi dolores hic."</p>
+                    <h1 class="nama">Nama Santri</h1>
+                </div>
+                <div class="container-berita">
+                    <h1 class="card-4">Berita Pesantren Link</h1>
+                    <div class="card-deck" id="news">
+                        <div class="card santri-card">
+                            <img src="assets/image/sambut.jpg" class="card-img-top" alt="">
+                            <div class="card-body san">
+                                <h5 class="card-title">Pesantren Raudhatul Quran Bogor Bersiap Sambut Santri Beru</h5>
+                                <div class="textna-santri">
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi,
+                                        accusantium
+                                        quia! Quidem, nihil. Debitis, porro tenetur excepturi Lorem ipsum dolor sit amet
+                                        consectetur
+                                        adipisicing elit. Neque iure voluptate est enim quod dolore, eum fuga provident,
+                                        autem
+                                        magnam
+                                        alias inventore eaque a debitis in fugit unde quis adipisci. unde earum neque.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-primary tombol santri">Read More</a>
+                            </div>
+                        </div>
+                        <div class="card santri-card">
+                            <img src="assets/image/corona.jpg" class="card-img-top" alt="">
+                            <div class="card-body san">
+                                <h5 class="card-title">Madiun Lakukan Rapid Test untuk Ratusan Santri Darussalam</h5>
+                                <div class="textna-santri">
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi,
+                                        accusantium
+                                        quia! Quidem, nihil. Debitis, porro tenetur excepturi Lorem ipsum dolor sit amet
+                                        consectetur
+                                        adipisicing elit. Neque iure voluptate est enim quod dolore, eum fuga provident,
+                                        autem
+                                        magnam
+                                        alias inventore eaque a debitis in fugit unde quis adipisci. unde earum neque.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-primary tombol santri">Read More</a>
+                            </div>
+                        </div>
+                        <div class="card santri-card">
+                            <img src="assets/image/menuju.jpeg" class="card-img-top" alt="">
+                            <div class="card-body san">
+                                <h5 class="card-title">Corona Tinggi, Ratusan Santri Berbagai Daerah Menuju Jatim</h5>
+                                <div class="textna-santri">
+                                    <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi,
+                                        accusantium
+                                        quia! Quidem, nihil. Debitis, porro tenetur excepturi Lorem ipsum dolor sit amet
+                                        consectetur
+                                        adipisicing elit. Neque iure voluptate est enim quod dolore, eum fuga provident,
+                                        autem
+                                        magnam
+                                        alias inventore eaque a debitis in fugit unde quis adipisci. unde earum neque.
+                                    </p>
+                                </div>
+                                <a href="#" class="btn btn-primary tombol santri">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-chart">
+                    <h1 class="judul-chart">Statistik Santri Pesantren</h1>
+                    <canvas id="myChart" class="chart"></canvas>
+                </div>
+            </div>
+            <div class="container-kiri">
+                <div class="container-text-area">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Apa yang Anda pikirkan, Nama Santri?">
+                            <button type="button" class="btn btn-primary kirim">Kirim</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="container-status">
+                    <div class="container-satu">
+                        <div class="nama-foto">
+                            <img src="assets/image/foto.jpg" class="foto-komen">
+                            <div class="nama-waktu">
+                                <h1 class="nama-komen">Nama Santri</h1>
+                                <h1 class="waktu-komen">
+                                    <script type="text/javascript">
+                                        document.write(new Date());
+                                    </script>
+                                </h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="status">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi at libero
+                            aspernatur, maiores commodi quos. Iusto delectus quia omnis saepe in esse enim dolor atque
+                            aspernatur, ab, cum voluptatibus suscipit, quam sit sequi sint dolorum at neque laudantium
+                            cupiditate. Quis dolor omnis impedit perferendis magnam nihil. Animi aliquam suscipit
+                            commodi.
+                        </p>
+                        <img src="assets/image/1156.jpg" class="status-foto">
+                        <hr>
+                        <form>
+                            <div class="form-group komen">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Tulis Komentar">
+                                <button type="button" class="btn btn-primary kirim-komen">Kirim</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="container-satu">
+                        <div class="nama-foto">
+                            <img src="assets/image/foto.jpg" class="foto-komen">
+                            <div class="nama-waktu">
+                                <h1 class="nama-komen">Nama Santri</h1>
+                                <h1 class="waktu-komen">
+                                    <script type="text/javascript">
+                                        document.write(new Date());
+                                    </script>
+                                </h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="status">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt iste quo
+                            molestias consectetur modi accusamus. Excepturi velit minus sed non minima modi dicta nihil
+                            deserunt, obcaecati libero? Enim aspernatur temporibus doloribus, dignissimos facilis
+                            dolores ipsum? Eligendi qui quas culpa dolores perspiciatis corrupti dignissimos quia velit
+                            non impedit! Sunt maxime porro tenetur illo animi, veniam tempora officia aliquid ea quos
+                            sit consequatur fuga, eaque laboriosam quidem! Exercitationem cupiditate magni hic impedit
+                            dicta deserunt quae animi blanditiis itaque asperiores expedita ad maiores aliquid incidunt,
+                            eos magnam qui cum nulla explicabo voluptatibus. Dolores unde rem dolorum, nostrum
+                            repellendus provident ullam eligendi! Ut laboriosam saepe maxime, delectus officiis
+                            aspernatur sunt ratione nostrum voluptatibus, sed est nisi! Reiciendis dolor, blanditiis
+                            eaque aliquid odio temporibus similique necessitatibus deserunt ab cupiditate dolorem quos
+                            molestiae dolorum. Perferendis natus culpa iusto magni repellat explicabo illum, atque ipsam
+                            unde nesciunt autem corporis sunt eveniet at. Excepturi nihil, repudiandae quaerat
+                            laboriosam in commodi nisi harum nesciunt dicta laudantium odit quibusdam libero, soluta
+                            tempore rerum qui consequuntur, at nam fugit maiores! Officia, neque sit. Hic exercitationem
+                            ratione aliquid dignissimos, dolores odit autem facere, sequi harum quidem repellendus
+                            assumenda. Nostrum dolore sit architecto neque eveniet, maxime quod et atque adipisci eum?
+                            Neque, rerum!
+                        </p>
+                        <hr>
+                        <form>
+                            <div class="form-group komen">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Tulis Komentar">
+                                <button type="button" class="btn btn-primary kirim-komen">Kirim</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="container-satu">
+                        <div class="nama-foto">
+                            <img src="assets/image/foto.jpg" class="foto-komen">
+                            <div class="nama-waktu">
+                                <h1 class="nama-komen">Nama Santri</h1>
+                                <h1 class="waktu-komen">
+                                    <script type="text/javascript">
+                                        document.write(new Date());
+                                    </script>
+                                </h1>
+                            </div>
+                        </div>
+                        <hr>
+                        <p class="status">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+                            voluptatibus necessitatibus! Delectus saepe est rerum eligendi soluta corrupti unde. Esse
+                            exercitationem aperiam voluptate ducimus iusto, explicabo cumque et tempora delectus iure
+                            aut atque eveniet architecto suscipit nihil ipsa sequi ipsam! Odio accusamus, exercitationem
+                            ratione in provident nihil incidunt! A dolorum praesentium voluptatum accusantium qui quia
+                            in id officia numquam, iusto reprehenderit sequi asperiores itaque minus cum animi nostrum.
+                            Quasi, voluptatum asperiores possimus temporibus repellat alias perspiciatis exercitationem
+                            necessitatibus dignissimos iusto facilis nam sed facere molestiae aut quidem voluptates quo
+                            sapiente saepe et hic nihil quia! Necessitatibus eligendi beatae doloremque reprehenderit.
+                        </p>
+                        <hr>
+                        <form>
+                            <div class="form-group komen">
+                                <input type="text" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="Tulis Komentar">
+                                <button type="button" class="btn btn-primary kirim-komen">Kirim</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Profile -->
+
+        <!-- Go To Top -->
+        <div class="row justify-content-right">
+            <div class="col-lg-10">
+                <a class="gotopbtn" href="#"><i class="fas fa-caret-up"></i></a>
+            </div>
+        </div>
+        <!-- End Go To Top -->
+
+    </div>
+    <!-- End Container -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="copyright">
+            <div class="container">
+                <p>Copyright &copy; Portal Pesantren <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Script Chart -->
+    <script>
+        let myChart = document.getElementById('myChart').getContext('2d');
+
+        Chart.defaults.global.defaultFontFamily = 'Roboto';
+        Chart.defaults.global.defaultFontSize = 11;
+        Chart.defaults.global.defaultFontColor = '#343434';
+
+        let massPopChart = new Chart(myChart, {
+            type: 'bar',
+            data: {
+                labels: ['2020', '2025', '2030', '2035', '2040', '2045'],
+                datasets: [{
+                    label: 'Santri',
+                    data: [
+                        273523615,
+                        287089635,
+                        299198430,
+                        309764944,
+                        318637858,
+                        325705348
+                    ],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, .6)',
+                        'rgba(54, 162, 235, .6)',
+                        'rgba(255, 206, 86, .6)',
+                        'rgba(75, 192, 192, .6)',
+                        'rgba(153, 102, 255, .6)',
+                        'rgba(255, 159, 64, .6)'
+                    ]
+                }]
+            },
+            options: {
+                scales: {
+                    yAxes: [{
+                        ticks: {
+                            beginAtZero: true
+                        }
+                    }]
+                }
+            }
+        });
+    </script>
+    <!-- End Script Chart -->
+</body>
+
+</html>
