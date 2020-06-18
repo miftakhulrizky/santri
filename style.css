@@ -351,6 +351,7 @@ body {
 
 /* Link */
 .card {
+    cursor: pointer;
     z-index: 1;
     border: none !important;
     align-items: center;
@@ -366,6 +367,13 @@ body {
     margin-bottom: 5px;
     border: none;
     background-color: #ffffff;
+}
+
+.card .gmbr {
+    width: 150px;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 .card .card-img-top {
@@ -448,3 +456,7 @@ footer {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* .portal .carousel-item {
+    width: 500px;
+} */
